@@ -1,0 +1,16 @@
+{
+  "name": "mean-stack",
+  "main": "server.js",
+  "description": "mean-stack with nodejs code repository for code, node-api",
+  "repository":{
+  	"type": "git",
+  	"url": "https://dev1410@bitbucket.org/dev1410/mean-stack.git"
+  },
+  "dependencies": {
+    "morgan": "~1.5.3",
+    "express": "~4.10.8",
+    "body-parser": "~1.9.3",
+    "mongoose": "~3.8.35",
+    "bcrypt-nodejs": "0.0.3"
+  }
+}
