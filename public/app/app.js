@@ -1,5 +1,12 @@
 // inject the stuff service into our main Angular module
-angular.module('myApp', ['stuffService'])
+angular.module('userApp', [
+	'ngAnimate',
+	'app.routes',
+	'authService',
+	'mainCtrl',
+	'userCtrl',
+	'userService'
+])
 
 // create a controller and inject the stuff factory
 .controller('userController',  function(Stuff){
